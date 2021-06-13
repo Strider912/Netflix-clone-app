@@ -1,0 +1,51 @@
+.banner{
+
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Black_flag.svg/1200px-Black_flag.svg.png");
+
+    height: 448px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+.banner__contents{
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 190px;
+}
+
+.banner__title{
+    font-size: 3rem;
+    padding-top: 0.2rem;
+    font-weight: 800;
+}
+
+.banner__desc{
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-top: 1rem;
+    max-width: 360px;
+    height: 80px;
+}
+
+.banner__button{
+    border: none;
+    outline: none;
+    background-color: rgba(51,51,51,0.8 );
+    color: white;
+    padding: 10px 25px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.banner__button:hover{
+    background-color: #e6e6e6;
+    color: black;
+    transition: all 0.2s;
+}
+
+
+.banner__fade{
+    height: 7.6rem;
+    background-image: linear-gradient(180deg, transparent , rgba(37,37,37,0.61), #111);
+}
